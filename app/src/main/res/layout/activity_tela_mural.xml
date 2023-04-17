@@ -32,7 +32,8 @@
         android:textSize="18sp"
         android:textStyle="normal"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="220dp" />
+        tools:layout_editor_absoluteY="220dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -91,10 +92,11 @@
         android:id="@+id/imageView23"
         android:layout_width="91dp"
         android:layout_height="67dp"
-        android:layout_marginBottom="292dp"
+        android:layout_marginBottom="320dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:srcCompat="@drawable/metalicon"
-        tools:layout_editor_absoluteX="107dp" />
+        tools:layout_editor_absoluteX="107dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView25"
@@ -114,7 +116,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.455"
         app:srcCompat="@drawable/papelicon"
-        tools:layout_editor_absoluteX="198dp" />
+        tools:layout_editor_absoluteX="198dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -136,7 +139,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.455"
         app:srcCompat="@drawable/madeiraicon"
-        tools:layout_editor_absoluteX="367dp" />
+        tools:layout_editor_absoluteX="367dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView29"
@@ -146,7 +150,8 @@
         app:layout_constraintHorizontal_bias="0.488"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/postagem1"
-        tools:layout_editor_absoluteY="375dp" />
+        tools:layout_editor_absoluteY="375dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView2"
@@ -158,7 +163,8 @@
         android:textColor="#000000"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="338dp" />
+        tools:layout_editor_absoluteY="338dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView6"
@@ -168,14 +174,16 @@
         android:text="DIY: Embalagem Plástica de Ovo.Artesanato, Decoração,  Reciclagem.Faça Você Mesmo. Moldura/Espelho"
         android:textColor="#000000"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="505dp" />
+        tools:layout_editor_absoluteY="505dp"
+        tools:ignore="MissingConstraints" />
 
     <ImageView
         android:id="@+id/imageView32"
         android:layout_width="182dp"
         android:layout_height="56dp"
         app:srcCompat="@drawable/greensolves1"
-        tools:layout_editor_absoluteX="121dp" />
+        tools:layout_editor_absoluteX="121dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView8"
@@ -183,7 +191,8 @@
         android:layout_height="wrap_content"
         android:text="Plástico"
         tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="311dp" />
+        tools:layout_editor_absoluteY="311dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView9"
@@ -191,7 +200,8 @@
         android:layout_height="wrap_content"
         android:text="Metal"
         tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="310dp" />
+        tools:layout_editor_absoluteY="310dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView10"
@@ -199,7 +209,8 @@
         android:layout_height="wrap_content"
         android:text="Papel"
         tools:layout_editor_absoluteX="229dp"
-        tools:layout_editor_absoluteY="311dp" />
+        tools:layout_editor_absoluteY="311dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView11"
@@ -207,7 +218,8 @@
         android:layout_height="wrap_content"
         android:text="Vidro"
         tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="313dp" />
+        tools:layout_editor_absoluteY="313dp"
+        tools:ignore="MissingConstraints" />
 
     <TextView
         android:id="@+id/textView12"
@@ -215,6 +227,7 @@
         android:layout_height="wrap_content"
         android:text="Madeira"
         tools:layout_editor_absoluteX="373dp"
-        tools:layout_editor_absoluteY="312dp" />
+        tools:layout_editor_absoluteY="312dp"
+        tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>

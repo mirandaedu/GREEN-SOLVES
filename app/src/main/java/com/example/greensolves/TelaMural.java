@@ -8,6 +8,9 @@ public class TelaMural extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tela_mural2);
+        setContentView(R.layout.activity_tela_mural);
+
+
+
     }
 }
