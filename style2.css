@@ -1,0 +1,139 @@
+body{
+    margin:0;
+    font-family: "Noto Sans", sans-serif;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    background: #BEDECB;
+}
+
+body*{
+    box-sizing:border-box ;
+}
+   
+.main-cadastro{
+    width: 90vw;
+    height: 88vh;
+    background: #135E46;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 40px;
+    
+}
+
+.left-cadastro{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-cadastro>h1{
+    color: #135E46;
+    
+}
+
+.left-login-image{
+    width: 25vw;
+}
+.right-cadastro{
+    width:50vw;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.card-cadastro{
+    width: 60%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #BEDECB;
+    border-radius:20px;
+    box-shadow: 0px 10px 40px  #000000;
+}
+
+.card-cadastro > h1{
+    color: #135E46;
+    font-weight:800;
+    margin: 0;
+    margin-bottom: 20px
+}
+
+.textfield{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin:10px 0px;
+}
+
+.textfield> input{
+    width: 100%;
+    border:10px 20px;
+    border-color: #135E46;
+    border-radius: 20px;
+    padding: 15px;
+    background: #BEDECB;
+    color:#171817;
+    font-size: 12pt;
+    /*box-shadow: 5px -1px 10px  #000000;*/
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield> label{
+    color:#000000;
+    margin-bottom: 10px;
+}
+.textfield>input::placeholder{
+    color:#135E46
+    
+}
+
+.btn-cadastro{
+    width: 50%;
+    padding: 15px 0px;
+    margin: 25px;
+    border:none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#BEDECB;
+    background: #3F8640;
+    cursor:pointer;
+    box-shadow: 0px 10px 40px -12px #3F8640;
+}
+
+@media only screen and (max-width: 950px){
+    .card-cadastro{
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main-cadastro{
+        flex-directiom:column;
+    }
+    .left-cadastro{
+        width:100%;
+        height: auto;
+    }
+    .right-cadastro{
+        width:100%;
+        height: auto;
+    }
+    .left-login-image{
+        width:50vw;
+    }
+    .card-cadstro{
+        width: 90%;
+    } 
+
+}
