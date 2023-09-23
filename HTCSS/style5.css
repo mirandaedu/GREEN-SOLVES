@@ -1,0 +1,92 @@
+body{
+    font-family: "Noto Sans", sans-serif;
+    background: hsl(144, 33%, 81%);
+
+}
+.adiciona{
+    font-family: "Noto Sans", sans-serif;
+
+}
+
+
+.mainmenubtn {
+font-family: "Noto Sans", sans-serif;
+width:90px ;
+height: 60px;
+background-color: hsl(144, 33%, 81%);
+color: white;
+border: none;
+cursor: pointer;
+padding:-5px;
+margin-top:-10px;
+}
+
+.mainmenubtn:hover {
+background-color:hsl(144, 33%, 81%);
+}
+.dropdown {
+position: relative;
+display: inline-block;
+}
+.opcoes {
+display: none;
+background-color: hsl(144, 33%, 81%);
+min-width: 200px;
+border-radius: 10px;
+}
+.opcoes a {
+padding: 20px;
+text-decoration: none;
+border-radius: 20px;
+color: #000;
+padding: 20px;
+display: block;
+transition: background-color 0.3s;
+
+}
+.dropdown:hover .opcoes {
+display: block;
+/*border: 1px solid #135E46;*/
+}
+.opcoes a:hover {
+    background-color: hsl(144, 33%, 60%); /* Define a cor de fundo quando o mouse passa por cima */
+    color: white; /* Define a cor do texto quando o mouse passa por cima */
+}
+.img-logo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10px 0px;
+    margin-top: -10px;
+}
+
+.imagem-logo {
+    text-align: left; /* Alinhar o texto à esquerda */
+    display: flex; /* Tornar o contêiner flexível */
+    align-items: center; /* Alinhar os itens verticalmente ao centro */
+    margin-left: 150px; /* Adicionar margem à esquerda para espaço */
+    margin-top: -50PX;
+}   
+
+.logo {
+    max-height: 200px; /* Definir a altura máxima da imagem */
+    margin-right: 150px; /* Adicionar margem à direita para espaço */
+}
+#busca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+  }
+  
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+  }
