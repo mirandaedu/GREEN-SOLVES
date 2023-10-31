@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&family=Rubik&display=swap');
+
+body {
+    margin: 0;
+    padding: 0px;
+    font-size: 14px;
+    font-family: 'Baloo 2', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    background: hsl(144, 33%, 81%);
+}
+
+.adiciona{
+    font-family: "Noto Sans", sans-serif;
+}
+
+.mainmenubtn {
+font-family: "Noto Sans", sans-serif;
+width:90px ;
+height: 60px;
+background-color: hsl(144, 33%, 81%);
+color: white;
+border: none;
+cursor: pointer;
+padding:-5px;
+margin-top:10px;
+z-index: 2;
+}
+
+.mainmenubtn:hover {
+background-color:hsl(144, 33%, 81%);
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+z-index: 2px;
+}
+
+.opcoes {
+display: none;
+background-color: hsl(144, 33%, 81%);
+min-width: 200px;
+border-radius: 10px;
+width: 30px;
+z-index: 1;
+
+}
+
+.opcoes a {
+padding: 20px;
+text-decoration: none;
+border-radius: 20px;
+color: #000;
+padding: 20px;
+display: block;
+transition: background-color 0.3s;
+height: 10px;
+z-index: 2;
+
+}
+.dropdown:hover .opcoes {
+display: block;
+z-index: 1;
+/*border: 1px solid #135E46;*/
+}
+
+.opcoes a:hover {
+    background-color: hsl(144, 33%, 60%); /* Define a cor de fundo quando o mouse passa por cima */
+    color: white; /* Define a cor do texto quando o mouse passa por cima */
+}
+.logo-search-container {
+    display: flex;
+    align-items: center;
+    margin-left: 150px; /* Você pode ajustar isso conforme necessário */
+}
+
+.imagem-logo {
+    text-align: left; /* Alinhar o texto à esquerda */
+    display: flex; /* Tornar o contêiner flexível */
+    align-items: center; /* Alinhar os itens verticalmente ao centro */
+    margin-left: 100px; /* Adicionar margem à esquerda para espaço */
+    margin-top: -60PX;
+    text-align: left;
+}   
+
+.logo {
+    max-height: 200px;
+}
+
+#Busca {
+    background-color: #2F4F4F;
+    border: solid 1px;
+    border-radius: 15px;
+    width: 600px;
+    margin-top: -50px;
+    margin-left: 450px;
+}
+#btnBusca{
+    width: 250px;
+    height: 10px;
+}
+  
+#txtBusca {
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-style: italic;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 260px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 30px;
+    background: #fff;
+
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.dropdown-toggle .arrow {
+    margin-left: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 5px;
+    display: block;
+
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dropdown-content a:hover {
+    background-color: #a8e93fbd;
+    transition: 0.5s;
+}
+
+.container-wrapper {
+    display: flex;
+    margin-top: -10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.slider{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.slides{
+    display: flex;
+}
+
+.navigation-bar{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+input{
+    display: none;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius:20px;
+    cursor: pointer;
+    margin-bottom: 70px;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 20px;
+
+}
+.manual-btn:hover{
+    background: #fff;
+    transition: 0.4s;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    width: 37%;
+}
+
+.container p {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        max-width: 90%;
+        margin-left: auto;
+    }
+}
+
+header {
+    background-image: url('img/pecabannertopo.png');
+    padding: 10px 0;
+    text-align: center;
+    position: relative; 
+}
+
+#contato {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 300px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 30px;
+    background: #fff;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.dropdown-toggle .arrow {
+    margin-left: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    padding: 5px;
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.dropdown-content a:hover {
+    background-color: #a8e93fbd;
+    transition: 0.5s;
+}
+
+.container-wrapper {
+    display: flex;
+    margin-top: -10%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.slider{
+    width: 90%;
+    height: 400px;
+    overflow: hidden;
+    position: absolute; 
+    margin-right: -500px;
+}
+
+.slides{
+    display: flex;
+}
+.navigation-bar{
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+}
+input{
+    display: none;
+}
+
+.manual-btn{
+    border: 2px solid #fff;
+    padding: 5px;
+    border-radius:10px;
+    cursor: pointer;
+    margin-right: 550px; 
+    margin-bottom: 30px;
+}
+
+.manual-btn:hover{
+    background: #fff;
+    transition: 0.4s;
+}
+
+
+.button-container {
+    display: flex;
+    align-items: center;
+    
+}
+
+.adicionarIdeia{
+    width: 40px; /* Ajuste a largura conforme necessário */
+    height: 40px; /* Ajuste a altura conforme necessário */
+    margin-left: 1350px; /* Espaçamento entre os botões */
+    margin-top: -50px;
+    background: hsl(144, 33%, 81%);
+    border: 0;
+}
