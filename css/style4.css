@@ -1,0 +1,84 @@
+body{
+    
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    justify-content:center;
+   
+    background: hsl(144, 33%, 81%);
+    padding-top: 150px;
+    padding-right: 650x;
+
+}
+
+body*{
+    box-sizing:border-box ;
+}
+ .imagem-center img{ 
+    margin-top: -100px;
+    padding-top: -100px;
+  
+    
+ }
+ .imagem-center{
+    text-align: center;
+ }
+ .btn-enviar{
+    width: 25%;
+    padding: 10px 0px;
+    margin-top: 10px;
+    border:none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#BEDECB;
+    background: #3F8640;
+    cursor:pointer;
+    box-shadow: 0px 10px 40px -12px #3F8640;
+ }
+ .textfield{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10px 0px;
+}
+
+.textfield> input{
+    width: 25%;
+    border:10px 20px;
+    border-color: #135E46;
+    border-radius: 20px;
+    padding: 15px;
+    background: #BEDECB;
+    color:#171817;
+    font-size: 12pt;
+    /*box-shadow: 5px -1px 10px  #000000;*/
+    outline: none;
+    box-sizing: border-box;
+}
+.textfield> label{
+    color:#000000;
+    margin-bottom: 10px;
+}
+.textfield>input::placeholder{
+    color:#000;
+    
+}
+.btn-cancelar{
+    width: 130px;
+    padding: 10px 0px;
+    margin-top: 30px;
+    border:none;
+    border-radius: 20px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color:#BEDECB;
+    background: #135D46;
+    cursor:pointer;
+    box-shadow: 0px 10px 40px -12px #135D46;
+    
+}
